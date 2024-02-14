@@ -1,7 +1,7 @@
-import Header from "./components/Header";
-import Rodape from "./components/Rodape";
-import ContadorPage from "./pages/ContadorPage";
-import { Route, Routes } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import Header from "./Components/Header";
+import Rodape from "./Components/Rodape";
+import ContadorPage from "./pages/ContadorPage/ContadorPage";
 import ErrorPage from "./pages/ErrorPage";
 import SobrePage from "./pages/SobrePage";
 import SobreMimPage from "./pages/SobrePage/SobreMimPage";
@@ -9,6 +9,7 @@ import SobrePretaLabPage from "./pages/SobrePage/SobrePretaLabPage";
 import PokemonPage from "./pages/PokemonPage";
 import EnderecoPage from "./pages/EnderecoPage";
 import EstudantesPage from "./pages/InicioPage";
+import "./global.css";
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
 
       <Rodape mensagem="Feito por amor por Lis <3" />
     </>
-  );
+  )
 }
 
 export default App;

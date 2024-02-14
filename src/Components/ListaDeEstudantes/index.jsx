@@ -1,5 +1,5 @@
 import CardEstudante from "../CardEstudante";
-import "./styles.css";
+import "./style.css";
 
 const ListaDeEstudantes = ({ lista }) => {
   return (

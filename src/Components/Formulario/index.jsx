@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import Botao from "../Botao";
+import Botao from "../botão";
 import CaixaDeTexto from "../CaixaDeTexto";
 import "./styles.css";
 
@@ -71,7 +71,5 @@ const Formulario = ({ lista, setLista }) => {
     </section>
   );
 };
-
-export default Formulario;
 
 export default Formulario;
