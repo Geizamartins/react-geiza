@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Formulario from "../../components/Formulario";
-import ListaDeEstudantes from "../../components/ListaDeEstudantes";
+import Formulario from "../../Components/Formulario";
+import ListaDeEstudantes from "../../Components/ListaDeEstudantes";
 import { estudantes } from "../../data/estudantes";
 
 const EstudantesPage = () => {

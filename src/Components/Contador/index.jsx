@@ -2,8 +2,8 @@
 import { useState } from "react";
 
 // Importa o componente Botao e o arquivo de estilo CSS
-import Botao from "../Botao";
-import "./styles.css";
+import Botao from "../botão";
+import "./style.css";
 
 // Define o componente Contador
 const Contador = () => {

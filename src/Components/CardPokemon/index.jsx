@@ -1,5 +1,5 @@
 // Importa o arquivo de estilo CSS para aplicar estilos ao componente CardPokemon
-import "./styles.css";
+import "./style.css";
 
 // Define um componente funcional CardPokemon que recebe quatro propriedades: url, nome, foto e id
 const CardPokemon = ({ url, nome, foto, id }) => {

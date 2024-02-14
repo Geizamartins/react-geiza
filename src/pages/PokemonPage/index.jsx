@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import CardPokemon from "../../components/CardPokemon";
+import CardPokemon from "../../Components/CardPokemon";
 import axios from "axios";
-import "./styles.css";
+import "./style.css";
 
 const PokemonPage = () => {
   const [referenciasPokemons, setReferenciasPokemons] = useState([]);

@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <Menu />
       <div className="banner">
-        <img src="banner.png" />
+        <img src="Banner.png" />
       </div>
     </>
   );
