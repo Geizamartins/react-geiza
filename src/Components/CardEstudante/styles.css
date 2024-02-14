@@ -1,0 +1,28 @@
+/* Estilos para a classe ".card" */
+.card {
+  /* Adiciona sombras para criar o efeito de "cartão" */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* Transição suave para a sombra */
+  transition: 0.3s;
+}
+
+/* Quando o mouse passa sobre o cartão, aumenta a sombra */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Adiciona algum preenchimento dentro do contêiner do cartão */
+.container {
+  padding: 2px 16px;
+}
+
+/* Adiciona algum preenchimento ao redor dos elementos dentro do contêiner do cartão */
+.container > * {
+  padding: 10px 0;
+}
+
+/* Estilos para as imagens dentro do cartão */
+img {
+  /* Garante que a imagem ocupe toda a largura do contêiner */
+  width: 100%;
+}

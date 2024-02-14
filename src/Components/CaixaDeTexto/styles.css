@@ -1,0 +1,31 @@
+/* Estilos para a classe ".campo-texto" */
+.campo-texto {
+  /* Espaçamento ao redor do campo de texto */
+  margin: 14px 0;
+}
+
+/* Estilos para a etiqueta dentro da classe ".campo-texto" */
+.campo-texto label {
+  /* Define a exibição como bloco para que a etiqueta ocupe a largura total do seu contêiner */
+  display: block; 
+  /* Espaçamento abaixo da etiqueta */
+  margin-bottom: 8px;
+  /* Tamanho da fonte da etiqueta */
+  font-size: 16px;
+}
+
+/* Estilos para o input dentro da classe ".campo-texto" */
+.campo-texto input {
+  /* Tamanho da fonte do input */
+  font-size: 14px;
+  /* Espaçamento interno do conteúdo em relação às bordas */
+  padding: 12px; 
+  /* Estilo da borda do input */
+  border: 1px #000 solid;
+  /* Raio da borda para arredondamento dos cantos */
+  border-radius: 8px;
+  /* Cor de fundo do input */
+  background-color: #fff;
+  /* Largura do input */
+  width: 100%;
+}

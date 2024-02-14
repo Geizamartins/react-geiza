@@ -1,0 +1,40 @@
+/* Estilos para a classe ".botao" */
+
+.botao {
+  /* Cor de fundo do botão */
+  background-color: #6278f7;
+  
+  /* Raio da borda para arredondamento dos cantos */
+  border-radius: 10px;
+  
+  /* Peso da fonte */
+  font-weight: 700;
+  
+  /* Tamanho da fonte */
+  font-size: 18px;
+  
+  /* Espaçamento interno do conteúdo em relação às bordas */
+  padding: 12px;
+  
+  /* Remoção da borda do botão */
+  border: none; 
+  
+  /* Cursor do mouse ao passar sobre o botão */
+  cursor: pointer;
+  
+  /* Cor do texto dentro do botão */
+  color: #FFF;
+  
+  /* Espaçamento ao redor do botão */
+  margin: 12px 0;
+  
+  /* Largura mínima do botão */
+  min-width: 50px;
+}
+
+/* Estilos para a classe ".botao" quando o mouse passa sobre ele */
+
+.botao:hover {
+  /* Alteração da cor de fundo quando o mouse passa sobre o botão */
+  background-color: #9ca8f0;
+}

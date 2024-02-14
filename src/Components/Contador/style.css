@@ -1,0 +1,35 @@
+/* Estilos para a seção do contador */
+.contador-section {
+  /* Define um layout de coluna para os elementos filhos */
+  display: flex;
+  flex-direction: column;
+  /* Centraliza os elementos horizontalmente */
+  align-items: center;
+  /* Define o espaçamento entre os elementos filhos */
+  gap: 10px;
+  /* Adiciona preenchimento interno à seção */
+  padding: 60px 20px;
+}
+
+/* Estilos para o conteúdo principal do contador */
+.contador-main {
+  /* Define um layout de linha para os elementos filhos */
+  display: flex;
+  flex-direction: row;
+  /* Centraliza os elementos verticalmente */
+  align-items: center;
+  /* Define o espaçamento entre os elementos filhos */
+  gap: 30px;
+  /* Limita a largura do conteúdo principal */
+  max-width: 80%;
+}
+
+/* Estilos para o valor do contador */
+.counter-value {
+  /* Define o tamanho da fonte */
+  font-size: 40px;
+  /* Define a largura mínima do valor do contador */
+  min-width: 40px;
+  /* Centraliza o texto horizontalmente */
+  text-align: center;
+}

@@ -1,0 +1,7 @@
+/* Define estilos para a classe ".pokemon-item" */
+.pokemon-item {
+  /* Centraliza o conteúdo horizontalmente dentro do elemento */
+  text-align: center;
+  /* Define a largura do elemento como 20% da largura do contêiner pai, subtraindo 5 pixels de margem */
+  width: calc(20% - 5px);
+}
