@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
-import CardPokemon from "../../components/CardPokemon";
+import CardPokemon from "../../Components/CardPokemon";
 import axios from "axios";
-import "./styles.css";
+import "./style.css";
 
 const PokemonPage = () => {
   const [referenciasPokemons, setReferenciasPokemons] = useState([]);
   const [listaPokemons, setListaPokemons] = useState([]);
+  const [carregando, setCarregando] = useState(true); // Estado para controlar o carregamento
 
   const pegar100ReferenciasPokemons = async () => {
     try {

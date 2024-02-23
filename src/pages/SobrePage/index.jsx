@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./style.css";
 import { Link } from "react-router-dom";
 
 const SobrePage = () => {

@@ -1,0 +1,32 @@
+/* Estilos para os pokemons */
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+/* Estilos para  loading */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Define a altura total da viewport */
+}
+
+/* Estilos para o ícone de loading */
+.loading {
+  border: 8px solid #f3f3f3; /* Cor do círculo cinza claro */
+  border-top: 8px solid #3498db; /* Cor do círculo azul */
+  border-radius: 50%; /* Faz com que o elemento seja um círculo */
+  width: 50px; /* Largura do círculo */
+  height: 50px; /* Altura do círculo */
+  animation: spin 2s linear infinite; /* Animação spin */
+}
+
+/* Define a animação spin */
+@keyframes spin {
+  0% { transform: rotate(0deg); } /* Início da rotação */
+  100% { transform: rotate(360deg); } /* Fim da rotação */
+}

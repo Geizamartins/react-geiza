@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <>
       <Menu />
-      <div className="banner">
-        <img src="banner.png" />
+      <div className="Banner">
+        <img src="Banner.png" />
       </div>
     </>
   );
